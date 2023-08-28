@@ -1,0 +1,14 @@
+def sum_of_list(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+
+# Sample List
+sample_list = [8, 2, 3, 0, 7]
+
+# Calculate the sum using the function
+result = sum_of_list(sample_list)
+
+# Print the result
+print("Sum:", result)
